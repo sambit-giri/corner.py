@@ -19,7 +19,7 @@ INSTALLATION
 
 .. code-block:: tex
     
-    pip install git+https://github.com/sambit-giri/corner.git
+    pip install git+https://github.com/sambit-giri/corner.py.git
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
