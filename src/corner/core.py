@@ -48,6 +48,7 @@ def corner_impl(
     use_math_text=False,
     reverse=False,
     labelpad=0.0,
+    hist_density=True,
     hist_kwargs=None,
     **hist2d_kwargs
 ):
@@ -183,6 +184,7 @@ def corner_impl(
                 x,
                 bins=bins_1d,
                 weights=weights,
+                density=hist_density,
                 range=np.sort(range[i]),
                 **hist_kwargs,
             )
