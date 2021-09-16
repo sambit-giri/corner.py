@@ -42,6 +42,7 @@ def corner(
     use_math_text=False,
     reverse=False,
     labelpad=0.0,
+    hist_density=True,
     hist_kwargs=None,
     # Arviz parameters
     group="posterior",
@@ -249,6 +250,7 @@ def corner(
             use_math_text=use_math_text,
             reverse=reverse,
             labelpad=labelpad,
+            hist_density=hist_density,
             hist_kwargs=hist_kwargs,
             **hist2d_kwargs,
         )
