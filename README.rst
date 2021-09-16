@@ -11,6 +11,16 @@ corner.py
     :target: https://zenodo.org/badge/latestdoi/4729/dfm/corner.py
 .. image:: http://joss.theoj.org/papers/10.21105/joss.00024/status.svg?style=flat
     :target: http://dx.doi.org/10.21105/joss.00024
+    
+
+++++++++++++
+INSTALLATION
+++++++++++++
+
+.. code-block:: tex
+    
+    pip install git+https://github.com/sambit-giri/corner.git
+
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Read `the documentation <http://corner.readthedocs.io/>`_.
